@@ -1,0 +1,38 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  gap: 20px;
+}
+.card {
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 393px;
+  height: 300px;
+}
+.img {
+  display: flex;
+  padding: 15px 15px;
+  border-bottom: 1px solid #000;
+}
+.imgg {
+  border-radius: 10px;
+  width: 100%;
+  height: 100px;
+}
+.div_title {
+  padding: 15px;
+}
+.title {
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 22px;
+  max-width: 380px;
+}
+.capital,
+.region {
+  color: dimgray;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 700;
+}
